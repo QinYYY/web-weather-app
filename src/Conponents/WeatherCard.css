@@ -1,0 +1,74 @@
+.WeatherCardContainer {
+  float: left;
+  width: 20%;
+  min-width: 200px;
+  max-width: 250px;
+  margin: 50px 10px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px 10px;
+}
+
+.infoStyle {
+  margin: 10px 20px;
+  text-align: left;
+  font-size: large;
+  font-weight: bold;
+  /* background-color: antiquewhite; */
+  padding: 10px 0px;
+}
+
+.locationDiv {
+  position: relative;
+}
+
+.countryBg {
+  position: absolute;
+  display: inline-block;
+  background-color: #FD841F;
+  top: 5px;
+  margin-left: 10px;
+  margin-top: 5px;
+  /* min-width: 30px; */
+  height: 15px;
+  border-radius: 5px;
+  font-size: 0.5rem;
+  color: white;
+  text-align: center;
+  padding: 0px 5px;
+
+}
+.degreeDiv {
+  
+}
+.degreeLabel {
+  float: left;
+
+  min-width: 70px;
+  font-size: 50px;
+  font-weight: bolder;
+  margin-left: 1px;
+  margin-right: 5px;
+
+}
+.CLabel {
+
+  margin-top: 5px;
+  font-size: 20px;
+}
+.imgDiv {
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+.imgDiv img{
+  text-align: left;
+  padding-left: 0px;
+}
+
+.descriptionDiv {
+  margin-top: 10px;
+  color: rgb(132, 136, 138);
+}
+
+
+

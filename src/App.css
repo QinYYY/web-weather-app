@@ -1,10 +1,19 @@
 .App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  text-align: center;
+  background-color:#263159;
+  min-height: 200vh;
+  padding: 0 10%;
+
+}
+.gradualColor {
+  /* 标准的语法 */
+  background-image: linear-gradient(#263159,  50%, #82C3EC );
+}
+.cardContainer {
+
+  width: 100%;
+
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,16 +22,6 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
 .App-link {
   color: #61dafb;

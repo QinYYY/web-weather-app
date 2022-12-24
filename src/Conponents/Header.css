@@ -1,0 +1,68 @@
+
+.headerDiv {
+
+  padding: 5px;
+  color: white;
+  text-align: center;
+}
+
+.headerDiv h1{
+  /* The text size can be set with a vw unit, which means the "viewport width".
+That way the text size will follow the size of the browser window: */
+  font-size: 5vw;
+  width: 50%;
+  margin: 30px auto;
+  text-align: left;
+
+}
+
+
+.inputDiv {
+
+  height: 50px;
+  width: 50%;
+  padding: 0;
+  margin: 50px auto;
+  text-align: left;
+
+}
+
+.inputDiv input {
+
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: transparent;
+  border-bottom: 1px solid white;
+  height: 100%;
+  width: 50%;
+  color: white;
+  margin-top: 0;
+  outline: none;
+  font-size: large;
+  font-weight: bolder;
+  
+}
+.inputDiv button {
+  margin-left: 20px;
+  height: 100%;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  background-color: #EB455F;
+  color: white;
+  font-size: larger;
+  font-weight: bolder;
+
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+  font-size: large;
+  font-weight: bold;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: white;
+  font-size: large;
+  font-weight: bold;
+}
